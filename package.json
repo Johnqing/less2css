@@ -1,6 +1,6 @@
 {
 	"name": "less2css",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"readmeFilename": "README.md",
 	"description": "编译less，并且处理css逻辑",
 	"homepage": "https://github.com/Johnqing/less2css",

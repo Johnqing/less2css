@@ -49,7 +49,7 @@ var lessCompire = function(filename, fn) {
     exec('' + lessc + ' ' + filename + ' ' + baseName, { encoding: defConf.encode},
         function (err, stdout, stderr) {
             if (err != null) {
-                console.log(err)
+                throw new Error(err);
             }
             oneCssBuild(baseName);
             lessCount--;
