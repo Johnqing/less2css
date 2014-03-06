@@ -33,7 +33,7 @@ var oneCssBuild = exports.oneCssBuild = function(cssfile){
 	fTools.writeFile(cssfile, cssCode, defConf.encode);
 }
 //设置lessc路径
-var lessc = path.resolve('./node_modules/.bin/lessc.cmd');
+var lessc = path.resolve(__dirname+'/node_modules/.bin/lessc.cmd');
 /**
  * less文件编译
  * @param filename
