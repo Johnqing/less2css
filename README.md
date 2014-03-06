@@ -9,12 +9,6 @@ npm install less2css
 
 ## API
 
-+ mix
-+ walk
-+ mkdirSync
-+ readFile
-+ readFileSync
-+ writeFile
-+ cpdirSync
-+ getParentDir
-+ isDirIgnore
++ less2css
++ AllCssBuild
++ oneCssBuild
