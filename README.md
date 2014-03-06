@@ -1,24 +1,20 @@
 编译less，然后整理css
 =====================
 
-根目录下，防止该项目中的文件，
-
-修改 `feBuild.js` 中的 配置项 
+## 安装
 
 ```
-var defConf = {
-    "encode": "utf-8",
-    "workspace": "./src/www/front/resource/",
-    "ignore": 'combo',
-    "input":  "css",
-    "lessInput": "other/less"
-}
-
+npm install less2css
 ```
 
-运行
+## API
 
-```
-npm install
-node feBuild
-```
++ mix
++ walk
++ mkdirSync
++ readFile
++ readFileSync
++ writeFile
++ cpdirSync
++ getParentDir
++ isDirIgnore
