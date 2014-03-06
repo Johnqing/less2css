@@ -1,0 +1,34 @@
+{
+	"name": "less2css",
+	"version": "0.1.0",
+	"readmeFilename": "README.md",
+	"description": "编译less，并且处理css逻辑",
+	"homepage": "https://github.com/Johnqing/less2css",
+	"repository": "https://github.com/Johnqing/less2css",
+	"keywords": [],
+	"main": "./index.js",
+	"bin": {
+		"less2css": "./bin/less2css"
+	},
+	"dependencies": {
+		"filetools": "*",
+		"csso": "*",
+		"less": "*",
+		"commander": "*"
+	},
+	"devDependencies": {
+
+	},
+	"keywords": [
+		"lesstocss",
+		"cssparse",
+		"css clear up"
+	],
+	"author": {
+		"name": "Liu Qing",
+		"email": "csssnow@gmail.com",
+		"url": "http://liuqing.pw/"
+	},
+	"optionalDependencies": {},
+	"license": "BSD"
+}
