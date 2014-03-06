@@ -1,15 +1,12 @@
 {
 	"name": "less2css",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"readmeFilename": "README.md",
 	"description": "编译less，并且处理css逻辑",
 	"homepage": "https://github.com/Johnqing/less2css",
 	"repository": "https://github.com/Johnqing/less2css",
 	"keywords": [],
 	"main": "./index.js",
-	"bin": {
-		"less2css": "./bin/less2css"
-	},
 	"dependencies": {
 		"filetools": "*",
 		"csso": "*",
